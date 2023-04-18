@@ -1,0 +1,207 @@
+.divcontainer {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    height: 100vh;
+  }
+  
+  .item1 {
+    flex: 0 0 100%;
+    background: red;
+  }
+  
+  .item2, .item3 {
+    flex: 0 0 50%;
+    background: green;
+  }
+  
+  .item3 {
+    background: blue;
+  }
+  .region-promo .promotion-app a {
+    color: #000;
+    display: block;
+    padding: 60px 20px 60px 170px;
+    position: relative;
+  }
+  .featured-section-wrap .content-wrap {
+    max-width: 1170px;
+    padding: 60px 0;
+}
+.region-promo {
+  display: table;
+  table-layout: fixed;
+  width: 100%;
+  position: relative;
+}
+.region-promo {
+  position: relative;
+}
+.region-promo>* {
+  display: table-cell !important;
+  vertical-align: top;
+  width: 50%;
+  padding: 0;
+}
+.i18n-en .featured-section-wrap .region-promo .promotion-app {
+  width: 40%;
+}
+ .region-promo .promotion-app {
+    width: 40%;
+    background: linear-gradient(to right,#e8f4ff 30%,#fff 100%);
+    vertical-align: middle;
+}
+.region-promo .promo-appicon.promo-crm {
+  background-position: -1044px 10px;
+}
+.region-promo .promo-appicon {
+  height: 96px;
+  width: 96px;
+  left: 30px;
+  position: absolute;
+  top: 60px;
+  padding-top: 100px;
+  text-align: center;
+  background-size: auto 120px;
+  background-repeat: no-repeat;
+}
+.region-promo .learn-more {
+  color: #fff;
+  background: #f0483e;
+  padding: 8px 20px;
+  display: inline-block;
+  font-family: var(--zf-primary-bold);
+  text-transform: uppercase;
+  font-size: 13px;
+}
+.zh-zoho-one-promo-sec .zh-zoho-one-logo a span:after, .zh-header-wrap .zoho-logo, .zp-bundle:before, .zoho-logo-zh, .region-promo .promo-appicon, .zh-banner-wrap h1 a:before, .zh-bottom-promo-section .content-wrap>div:nth-child(3) h5 a:before, .zh-bottom-promo-section .content-wrap>div:last-child h5 a:before, .search-wrap .search-icon, .menu-search-icon, .zrm-left a span::after, .field-body a.zsocial-icon {
+  background-image: url(//www.zohowebstatic.com/sites/default/files/zh-sprite-2x-new.png);
+}
+.region-promo ul li {
+  text-align: left;
+  width: 50%;
+  display: none;
+  padding: 30px;
+}
+li.zp-main-apps {
+  vertical-align: top;
+  position: relative;
+}
+.region-promo ul {
+  position: relative;
+  width: 55%;
+  overflow: hidden;
+}
+.region-promo ul li {
+  text-align: left;
+  width: 50%;
+  display: none;
+  padding: 30px;
+}
+.region-promo ul li.zapp-show {
+  display: inline-block;
+}
+.region-promo ul a {
+  padding: 0 0 0 80px;
+}
+li.zp-main-apps a {
+  font-size: 19px;
+  color: #000;
+  position: relative;
+  display: inline-block;
+}
+a {
+  color: #03a9f5;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  vertical-align: baseline;
+  font-variant-ligatures: none;
+  
+}
+.zp-main-apps a>span {
+  height: 64px;
+  width: 64px;
+}
+.zp-main-apps a>span {
+  display: block;
+  background: url(//www.zohowebstatic.com/sites/default/files/zp-global-icon-sprite-2x.png) left top no-repeat;
+  margin: 0 auto 10px;
+  background-size: 960px auto;
+}
+.region-promo ul li span {
+  position: absolute;
+  left: 0;
+}
+span {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  vertical-align: baseline;
+  font-variant-ligatures: none;
+}
+li.zp-main-apps a {
+  font-size: 19px;
+  color: #000;
+  position: relative;
+  display: inline-block;
+}
+ul {
+  list-style: none;
+}
+.ccode-in .zp-main-books a>span {
+  background-position: -64px 0;
+}
+.featured-section-wrap .content-wrap {
+  max-width: 1170px;
+  padding: 60px 0;
+}
+.content-wrap {
+  width: 90%;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 80px 0 40px;
+  overflow: hidden;
+}
+.act-btn, .content-wrap, .main, .watch-btn {
+  position: relative;
+}
+.div {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  vertical-align: baseline;
+  font-variant-ligatures: none;
+}
+.region-promo ul:before {
+  width: 100%;
+  height: 1px;
+  top: 50%;
+  left: 0;
+}
+.region-promo ul li.zapp-show {
+  display: inline-block;
+}
+.region-promo ul li {
+  text-align: left;
+  width: 50%;
+  display: none;
+  padding: 30px;
+}
+.region-promo ul a {
+  padding: 0 0 0 80px;
+}
+.zp-main-mail a>span {
+  background-position: -256px 0;
+}
+.zp-main-people a>span {
+  background-position: -192px -160px;
+}
+
+.zp-main-projects a>span {
+  background-position: -448px 0;
+}

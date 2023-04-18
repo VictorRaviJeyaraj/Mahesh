@@ -1,0 +1,27 @@
+.nav-link{
+  /* color:antiquewhite !important; */
+  color: black;
+}
+.leftnav{
+  box-shadow: 0px 0px 1px;
+  margin-left: 14px;
+  margin-top: 16px;
+  width:285px;
+}
+.profilepicContainer{
+  margin-top: 10px;
+  margin-left: 11px;
+}
+@media(min-width: 1200px){
+  .col-xl-2{
+    width:100% !important;
+  }
+}
+
+.leftnav ul{
+  width:100%;
+}
+.leftnav ul li{
+  width:100%;
+  border-bottom:1px solid lightgrey;
+}

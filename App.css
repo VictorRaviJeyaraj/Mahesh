@@ -1,0 +1,100 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.layoutcontainerflex{
+  display:flex;
+  position: relative;
+  margin-top: 84px;
+}
+
+.layoutflexitem1{
+  
+  flex:14%;
+}
+.layoutflexitem2{
+ 
+  flex:90%;
+}
+@media(max-width:800px){
+  .layoutflexitem1,.layoutflexitem2{
+    flex:100%;
+  }
+}
+
+.loginbg{
+  background-color: #172727 ;
+}
+.topBarLogo{
+  width:196px;
+}
+.profilepic{
+  display: none;
+  width:133px;
+}
+.profilepiccard{
+  width: 18rem;
+}
+.profilepiccard p{
+  color:black;
+}
+.profilepiccard img{
+    width: 95px;
+    margin-left: 92px;
+    margin-top: 16px;
+}
+.topbar{
+  background-color: #F1F4F9;
+  color:black;
+}
+.mentordashboard{
+  height: 156px;
+  background-color: #522EB2;
+  position: absolute;
+  width: 100%;
+  text-align: left;
+}  
+
+.mentordashboard h3{
+  color: #C4B1F3;
+  margin-left:25px;
+}
+.mentordashboard span{
+  color: white;
+  margin-left:25px;
+}
